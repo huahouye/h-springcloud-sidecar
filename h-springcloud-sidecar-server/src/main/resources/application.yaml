@@ -1,0 +1,17 @@
+server:
+  port: 9091
+  
+spring:
+  application:
+    name: h-springcloud-sidecar-server
+  cloud:
+    config:
+      enabled: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://username:password@eureka1.ec.bwoil.com:8761/eureka/,http://username:password@eureka2.ec.bwoil.com:8761/eureka/,http://username:password@eureka3.ec.bwoil.com:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: ${eureka-interval:5}
+    prefer-ip-address: true
