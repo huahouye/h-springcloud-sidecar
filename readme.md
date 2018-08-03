@@ -27,13 +27,13 @@ Welcome to Express
 
 按照 spring boot 工程的启动方式启动，导入到 eclipse 启动也可以
 
-### 启动 h-springcloud-sidecar-server 工程
+### 启动 h-springcloud-sidecar-web 工程
 
 按照 spring boot 工程的启动方式启动，导入到 eclipse 启动也可以
 
 ## 最后结果
 
-浏览器打开 http://192.168.204.175:9091/sidecar/server/test 返回下面结果表示成功
+浏览器打开 http://localhost:9091/sidecar/server/test 返回下面结果表示成功
 
 ```
 users data from nodejs server

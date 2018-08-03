@@ -1,4 +1,4 @@
-package com.huahouye.sidecar.server;
+package com.huahouye.sidecar.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableCircuitBreaker
-public class HSpringcloudSidecarServerServerApplication {
+public class HSpringcloudSidecarWebServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HSpringcloudSidecarServerServerApplication.class, args);
+		SpringApplication.run(HSpringcloudSidecarWebServerApplication.class, args);
 	}
 }

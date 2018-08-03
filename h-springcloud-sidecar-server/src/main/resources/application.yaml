@@ -3,7 +3,7 @@ server:
   
 spring:
   application:
-    name: h-springcloud-sidecar-server
+    name: h-springcloud-sidecar-web
   cloud:
     config:
       enabled: false
@@ -11,7 +11,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://username:password@eureka1.ec.bwoil.com:8761/eureka/,http://username:password@eureka2.ec.bwoil.com:8761/eureka/,http://username:password@eureka3.ec.bwoil.com:8761/eureka/
+      defaultZone: http://pig:gip6666@eureka1.ec.bwoil.com:8761/eureka/,http://pig:gip6666@eureka2.ec.bwoil.com:8761/eureka/,http://pig:gip6666@eureka3.ec.bwoil.com:8761/eureka/
   instance:
     lease-renewal-interval-in-seconds: ${eureka-interval:5}
     prefer-ip-address: true

@@ -18,6 +18,6 @@
 
 	<modules>
 		<module>h-springcloud-sidecar-service</module>
-		<module>h-springcloud-sidecar-server</module>
+		<module>h-springcloud-sidecar-web</module>
 	</modules>
 </project>
